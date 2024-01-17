@@ -1,0 +1,45 @@
+body {
+    background-image: linear-gradient(to right, #3f4ea39d, #157e65f0);
+}
+
+#name {
+    color: white;
+    font-size: 150px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ephesis', cursive;
+
+}
+
+#job_title {
+    color: white;
+    font-size: 45px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#technologies {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#head_shot {
+    width: 425px;
+    height: 450px;
+    border-radius: 50%;
+    border-color: black;
+    border: 20px;
+    overflow: hidden;
+}
+
+#about_me_title {
+    font-size: 18px;
+}
