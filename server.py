@@ -21,6 +21,13 @@ def homepage():
     return render_template('homepage.html')
 
 
+@app.route('/about_me')
+def about_me():
+    """View About Me."""
+
+    return render_template('about_me.html')
+
+
 
 
 

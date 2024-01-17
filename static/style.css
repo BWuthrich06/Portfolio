@@ -2,6 +2,19 @@ body {
     background-image: linear-gradient(to right, #36459cbe, #157e65f0);
 }
 
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    margin-left: 38%;
+  }
+
+  .nav-item {
+    font-size: 20px;
+  }
+
+
 #name_title_header {
     text-align: center;
 }
@@ -9,7 +22,7 @@ body {
 #name {
     color: white;
     font-size: 175px;
-    margin-top: 50px;
+    margin-top: 75px;
     margin-bottom: 0;
     display: flex;
     align-items: center;
