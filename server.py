@@ -28,6 +28,13 @@ def about_me():
     return render_template('about_me.html')
 
 
+@app.route('/projects')
+def projects():
+    """View Projects."""
+
+    return render_template('projects.html')
+
+
 
 
 
