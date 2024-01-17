@@ -1,6 +1,7 @@
 """Portfolio Server"""
 
 import os
+import secrets
 from flask import Flask, render_template, redirect
 from jinja2 import StrictUndefined
 
