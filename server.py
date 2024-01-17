@@ -1,0 +1,27 @@
+"""Portfolio Server"""
+
+import os
+from flask import Flask, render_template, redirect
+from jinja2 import StrictUndefined
+
+secret_key = os.environ['secret_key']
+
+app = Flask(__name__)
+app.secret_key = secret_key
+app.jinja_env.undefined = StrictUndefined
+
+
+
+
+@app.route('/')
+def homepage():
+    """View Homepage."""
+
+    return render_template('homepage.html')
+
+
+
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", debug=True)
