@@ -35,6 +35,13 @@ def projects():
     return render_template('projects.html')
 
 
+@app.route('/contact')
+def contact():
+    """View Contact page."""
+
+    return render_template('contact.html')
+
+
 
 
 
