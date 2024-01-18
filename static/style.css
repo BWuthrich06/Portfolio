@@ -89,7 +89,6 @@ body {
 
 
 /* About Me */
-
 #about_me_head_shot {
    width: 300px;
    height: 425px;
@@ -113,7 +112,6 @@ body {
 
 
 /* Contact Page */
-
 .contact_info_header {
     margin-top: 75px;
     justify-content: center;
@@ -123,6 +121,7 @@ body {
     color: white;
 }
 
+/* Email */
 .contact_email {
     padding-top: 50px;
     justify-content: center;
@@ -138,6 +137,7 @@ body {
     color: white;
 }
 
+/* LinkedIn */
 .contact_linkedin {
     padding-top: 20px;
     justify-content: center;
@@ -147,12 +147,17 @@ body {
     color: white;
 }
 
+#linkedin_link {
+    color: white;
+}
+
 .bi-linkedin {
     padding-top: 20px;
     color: white;
     padding-right: 30px;
 }
 
+/* GitHub */
 .contact_github {
     padding-top: 20px;
     justify-content: center;
@@ -163,15 +168,29 @@ body {
     color: white;
 }
 
+#github_link {
+    color: white;
+}
+
 .bi-github {
     padding-top: 20px;
     color: white;
     padding-right: 30px;
 }
 
+/* Resume */
 .contact_resume {
     justify-content: center;
     display: flex;
     font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#resume_button {
+    font-weight: bold;
+    color: black;
 }
