@@ -1,3 +1,55 @@
 {% extends 'base.html' %}
 
 {% block title %}Contact Me{% endblock %}
+
+{% block body %}
+<div class="container">
+
+    <div class="row">
+        <div class="col-12">
+            <div class="contact_info_header">
+                <h1 class="contact_info_header">Contact Information</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-12">
+            <div class="contact_email">
+                <h6 class="contact_email">Email:</h6>  
+                    <a id="email_link" href="mailto:briana.wuthrich@gmail.com">  briana.wuthrich@gmail.com</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="contact_linkedin">
+                <i class="bi bi-linkedin"></i>
+                <a class="contact_linkedin" href="https://www.linkedin.com/in/briana-wuthrich-dev/" target="_blank">https://www.linkedin.com/in/briana-wuthrich-dev/</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="contact_github">
+                <i class="bi bi-github"></i>
+                <a class="contact_github" href="https://github.com/BWuthrich06" target="_blank">https://github.com/BWuthrich06</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-12">
+            <div class="contact_resume">
+                <button class="contact_resume">
+                    <a href="static/images/Software Engineer Resume Briana Wuthrich- Google Docs.pdf" target="_blank">View Resume</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

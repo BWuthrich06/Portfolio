@@ -1,17 +1,19 @@
-html, body {
-    height: 100%;
-    margin: 0;
+body {
     background-image: linear-gradient(to right, #36459cbe, #157e65f0);
+    padding-top: 56px;
 }
 
+
+/* Navbar */
 
 .navbar {
     position: fixed;
     width: 100%;
     top: 0;
     text-align: center;
-    font-family: 'Hepta Slab', serif;
+    font-family: 'Cormorant Garamond', serif;
     background: rgb(75, 67, 75);
+    z-index: 1000;
   }
 
 .navbar-nav .nav-item.active .nav-link {
@@ -19,13 +21,16 @@ html, body {
 }
  
 .nav-item {
-    font-size: 16px;
+    font-size: 22px;
     color: white;
   }
 
 .navbar-brand {
     color: white !important;
 }
+
+
+/* Homepage */
 
 #name_title_header {
     text-align: center;
@@ -34,7 +39,7 @@ html, body {
 #name {
     color: white;
     font-size: 175px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 0;
     display: flex;
     align-items: center;
@@ -43,20 +48,27 @@ html, body {
 
 }
 
+@media (max-width: 768px) {
+    #name {
+        font-size: 120px; /* Adjust the font size for smaller screens */
+    }
+}
+
 #job_title {
     color: white;
-    font-size: 40px;
-    font-family: 'Hepta Slab', serif;
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 30px;
 }
 
 #technologies {
     color: white;
-    font-size: 21px;
-    font-family: 'Hepta Slab', serif;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
     margin-top: 0;
     display: flex;
     align-items: center;
@@ -72,4 +84,94 @@ html, body {
 
 #about_me_title {
     font-size: 18px;
+}
+
+
+
+/* About Me */
+
+#about_me_head_shot {
+   width: 300px;
+   height: 425px;
+   margin-top: 300px;
+}
+
+.about_me_text {
+    padding-left: 100px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    color: white;
+}
+
+#about_me_intro {
+    padding-top: 200px;
+    padding-left: 100px;
+    font-size: 80px;
+    font-family: 'Ephesis', cursive;
+    color: white;
+}
+
+
+/* Contact Page */
+
+.contact_info_header {
+    margin-top: 75px;
+    justify-content: center;
+    display: flex;
+    font-family: 'Ephesis', cursive;
+    font-size: 100px;
+    color: white;
+}
+
+.contact_email {
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+
+#email_link {
+    padding-left: 30px;
+    padding-top: 43px;
+    color: white;
+}
+
+.contact_linkedin {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+
+.bi-linkedin {
+    padding-top: 20px;
+    color: white;
+    padding-right: 30px;
+}
+
+.contact_github {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.bi-github {
+    padding-top: 20px;
+    color: white;
+    padding-right: 30px;
+}
+
+.contact_resume {
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
 }
