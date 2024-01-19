@@ -107,24 +107,27 @@ body {
     padding-left: 100px;
     font-size: 100px;
     font-family: 'Ephesis', cursive;
-    color: white;
+    color: rgb(27, 4, 65);
+    font-weight: bold;
 }
 
 /* Projects */
 #capstone_project_header {
-    color: white;
+    color: rgb(27, 4, 65);
     font-family: 'Ephesis', cursive;
     display: flex;
     justify-content: center;
     margin-top: 180px;
     font-size: 100px;
+    font-weight: bold;
 }
 
 #continuing_care_header {
-    color: white;
+    color: rgb(27, 4, 65);
     font-family: 'Ephesis', cursive;
     padding-top: 100px;
     font-size: 60px;
+    font-weight: bold;
 }
 
 #continuing_care_text {
@@ -133,11 +136,17 @@ body {
     font-size: 24px;
     padding-right: 50px;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 #continuing_care_video {
     margin-top: 300px;
 }
+
+@media (max-width: 576px) {
+    #continuing_care_video {
+        height: auto;
+    }
 
 #continuing_care_link {
     color: black;
@@ -151,23 +160,40 @@ body {
 }
 
 #ongoing_projects {
-    color: white;
+    color: rgb(27, 4, 65);
     font-family: 'Ephesis', cursive;
     padding-top: 100px;
-    font-size: 60px;
+    font-size: 100px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 #sport_roster_header {
-    color: white;
+    color: rgb(27, 4, 65);
     font-family: 'Ephesis', cursive;
-    font-size: 40px;
+    font-size: 60px;
+    padding-bottom: 50px;
+    font-weight: bold;
 }
 
-#ongoing_project_button {
+#sport_roster_text {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+}
+
+#sport_roster_project_button {
     padding-left: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 20px;
+
+}
+
+#sport_roster_link {
+    color: black;
 }
 
 
@@ -182,7 +208,8 @@ body {
     display: flex;
     font-family: 'Ephesis', cursive;
     font-size: 100px;
-    color: white;
+    color: rgb(27, 4, 65);
+    font-weight: bold;
 }
 
 /* Email */
