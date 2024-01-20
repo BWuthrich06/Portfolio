@@ -41,14 +41,16 @@
     </div>
     
     <div class="row">
-        <div class="col-12">
-            <div class="contact_resume">
-                <button class="contact_resume">
-                    <a id="resume_button" href="static/images/Software Engineer Resume Briana Wuthrich- Google Docs.pdf" target="_blank">View Resume</a>
-                </button>
-            </div>
+        <div class="col-12 d-flex justify-content-center">
+            <button id="contact_resume" type="button" onclick="openPdf()">View Resume</button>
         </div>
     </div>
+
+    <script>
+        function openPdf() {
+            window.open("static/images/Software Engineer Resume Briana Wuthrich- Google Docs.pdf", "_blank");
+        }
+    </script>
 
 </div>
 
